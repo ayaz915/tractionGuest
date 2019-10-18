@@ -75,7 +75,7 @@ public class AddLocation extends TestSuiteBase{
 
 		 setAuthorInfoForReports();		
 	     openBrowser(browserType);
-/*	     navigate(url);
+	     navigate(url);
 		 ATUReports.add("loginPage",LogAs.INFO,null);
 		 input("loginPage_txtbx_username_xpath", username);
 		 input("loginPage_txtbx_password_xpath", password);
@@ -95,7 +95,7 @@ public class AddLocation extends TestSuiteBase{
 		 click("locations_btn_save_xpath");
 		 waitForTextToBeDisplayed("commanPage_txt_notificationMsg_xpath", "Location saved successfully", 30);	 
 		 click("guestBook_btn_locations_xpath");
-		 ATUReports.add("locationsAddedPage",LogAs.INFO,null);*/
+		 ATUReports.add("locationsAddedPage",LogAs.INFO,null);
 	}
 	
 	@AfterMethod

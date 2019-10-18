@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Location">
+              <span class="suite-name border-passed">Location</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Location">
+                    <span>C:\Users\T935219\Desktop\Traction Guest\tractionGuest\suiteLocation.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Location">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Location">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Location">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Location">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Location">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Location">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Location" class="hide-methods passed suite-Location"> (hide)</a> <!-- hide-methods passed suite-Location -->
+                      <a href="#" panel-name="suite-Location" class="show-methods passed suite-Location"> (show)</a> <!-- show-methods passed suite-Location -->
+                    </span>
+                    <div class="method-list-content passed suite-Location">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Location" title="com.tractionGuest.suiteLocation.AddLocation" hash-for-method="addLocation(AddLocation_AyazTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest...)">addLocation(AddLocation_AyazTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Location" title="com.tractionGuest.suiteLocation.AddLocation" hash-for-method="addLocation(AddLocation_HasanTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractiongues...)">addLocation(AddLocation_HasanTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractiongues...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Location -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-tractionGuest" class="panel tractionGuest">
+        </div> <!-- panel tractionGuest -->
+        <div panel-name="suite-Location" class="panel Location">
+          <div class="suite-Location-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tractionGuest.suiteLocation.AddLocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addLocation(AddLocation_AyazTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest...)">
+                  </a> <!-- addLocation(AddLocation_AyazTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest...) -->
+                  <span class="method-name">addLocation</span>
+                  <span class="parameters">(AddLocation_AyazTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest+demo@gmail.com, temp0R@ry, AyazTestLocation, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addLocation(AddLocation_HasanTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractiongues...)">
+                  </a> <!-- addLocation(AddLocation_HasanTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractiongues...) -->
+                  <span class="method-name">addLocation</span>
+                  <span class="parameters">(AddLocation_HasanTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest+demo@gmail.com, temp0R@ry, HasanTestLocation, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Location-class-passed -->
+        </div> <!-- panel Location -->
+        <div panel-name="test-xml-tractionGuest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\T935219\Desktop\Traction Guest\tractionGuest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;tractionGuest&quot;&gt;
+  &lt;parameter name=&quot;pdfngreport-properties&quot; value=&quot;pdfngreport.properties&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.uttesh.pdfngreport.PDFReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./suiteLocation.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- tractionGuest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Location" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\T935219\Desktop\Traction Guest\tractionGuest\suiteLocation.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Location&quot;&gt;
+  &lt;parameter name=&quot;pdfngreport-properties&quot; value=&quot;pdfngreport.properties&quot;/&gt;
+  &lt;test name=&quot;AddLocationTesting&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tractionGuest.suiteLocation.AddLocation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddLocationTesting --&gt;
+&lt;/suite&gt; &lt;!-- Location --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-tractionGuest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for tractionGuest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Location" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Location</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AddLocationTesting (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-tractionGuest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for tractionGuest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Location" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Location</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-tractionGuest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for tractionGuest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_tractionGuest');
+function tableData_tractionGuest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['tractionGuest']= { tableData: data, tableDiv: 'times-div-tractionGuest'}
+return data;
+}
+              </script>
+              <div id="times-div-tractionGuest">
+              </div> <!-- times-div-tractionGuest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Location" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Location</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Location');
+function tableData_Location() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addLocation')
+data.setCell(0, 2, 'com.tractionGuest.suiteLocation.AddLocation')
+data.setCell(0, 3, 3654);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addLocation')
+data.setCell(1, 2, 'com.tractionGuest.suiteLocation.AddLocation')
+data.setCell(1, 3, 2036);
+window.suiteTableData['Location']= { tableData: data, tableDiv: 'times-div-Location'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Location">
+              </div> <!-- times-div-Location -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-tractionGuest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for tractionGuest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Location" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Location</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addLocation(AddLocation_AyazTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addLocation(AddLocation_HasanTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractiongues...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-tractionGuest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Location" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-tractionGuest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tractionGuest.suiteLocation.AddLocation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkip</span>
+                <span class="method-start">1518 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">testData(public void com.tractionGuest.suiteLocation.AddLocation.addLocation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">1549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addLocation(AddLocation_AyazTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest...)</span>
+                <span class="method-start">1558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportDataSetResult</span>
+                <span class="method-start">5213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testData(public void com.tractionGuest.suiteLocation.AddLocation.addLocation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">7409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addLocation(AddLocation_HasanTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractiongues...)</span>
+                <span class="method-start">7410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportDataSetResult</span>
+                <span class="method-start">9447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">10972 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Location" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tractionGuest.suiteLocation.AddLocation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteSkip</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestSkip</span>
+                <span class="method-start">1518 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">testData(public void com.tractionGuest.suiteLocation.AddLocation.addLocation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">1549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addLocation(AddLocation_AyazTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractionguest...)</span>
+                <span class="method-start">1558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportDataSetResult</span>
+                <span class="method-start">5213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testData(public void com.tractionGuest.suiteLocation.AddLocation.addLocation(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">7409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addLocation(AddLocation_HasanTestLocation_Chrome, Chrome, https://dfeqa.tractionguest.ca/#/Login, qatractiongues...)</span>
+                <span class="method-start">7410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportDataSetResult</span>
+                <span class="method-start">9447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTestResult</span>
+                <span class="method-start">10972 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

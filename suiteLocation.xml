@@ -6,7 +6,7 @@
         <class name="com.tractionGuest.suiteLocation.AddLocation"></class>  
     </classes>
 </test>
-<!--  <test name="EditLocationTesting">
+ <test name="EditLocationTesting">
     <classes>
         <class name="com.tractionGuest.suiteLocation.EditLocation"></class>  
     </classes>
@@ -25,7 +25,7 @@
     <classes>
         <class name="com.tractionGuest.suiteLocation.DeleteLocation"></class>  
     </classes>
-</test> -->
+</test>
 
 </suite>
 

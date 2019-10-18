@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+  </reporter-output>
+  <suite name="tractionGuest" duration-ms="0" started-at="2019-10-18T01:59:29Z" finished-at="2019-10-18T01:59:29Z">
+    <groups>
+    </groups>
+  </suite> <!-- tractionGuest -->
+  <suite name="Location" duration-ms="9825" started-at="2019-10-18T01:59:14Z" finished-at="2019-10-18T01:59:24Z">
+    <groups>
+    </groups>
+    <test name="AddLocationTesting" duration-ms="9825" started-at="2019-10-18T01:59:14Z" finished-at="2019-10-18T01:59:24Z">
+      <class name="com.tractionGuest.suiteLocation.AddLocation">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" name="checkSuiteSkip" is-config="true" duration-ms="1518" started-at="2019-10-17T18:59:13Z" finished-at="2019-10-17T18:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" name="checkTestSkip" is-config="true" duration-ms="8" started-at="2019-10-17T18:59:14Z" finished-at="2019-10-17T18:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testData(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" test-instance-name="addLocation (AddLocation_HasanTestLocation_Chrome)" name="testData" is-config="true" duration-ms="9" started-at="2019-10-17T18:59:14Z" finished-at="2019-10-17T18:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tractionGuest.suiteLocation.AddLocation.addLocation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1b5c3e5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="addLocation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" test-instance-name="addLocation (AddLocation_HasanTestLocation_Chrome)" name="addLocation" duration-ms="3654" started-at="2019-10-17T18:59:14Z" data-provider="getTestData" finished-at="2019-10-17T18:59:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AddLocation_AyazTestLocation_Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://dfeqa.tractionguest.ca/#/Login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qatractionguest+demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[temp0R@ry]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[AyazTestLocation]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addLocation -->
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" test-instance-name="addLocation (AddLocation_HasanTestLocation_Chrome)" name="reportDataSetResult" is-config="true" duration-ms="2196" started-at="2019-10-17T18:59:18Z" finished-at="2019-10-17T18:59:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportDataSetResult -->
+        <test-method status="PASS" signature="testData(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" test-instance-name="addLocation (AddLocation_HasanTestLocation_Chrome)" name="testData" is-config="true" duration-ms="1" started-at="2019-10-17T18:59:20Z" finished-at="2019-10-17T18:59:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tractionGuest.suiteLocation.AddLocation.addLocation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@13741d5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="addLocation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" test-instance-name="addLocation (AddLocation_HasanTestLocation_Chrome)" name="addLocation" duration-ms="2036" started-at="2019-10-17T18:59:20Z" data-provider="getTestData" finished-at="2019-10-17T18:59:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AddLocation_HasanTestLocation_Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://dfeqa.tractionguest.ca/#/Login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qatractionguest+demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[temp0R@ry]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HasanTestLocation]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addLocation -->
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" test-instance-name="addLocation (AddLocation_HasanTestLocation_Chrome)" name="reportDataSetResult" is-config="true" duration-ms="1523" started-at="2019-10-17T18:59:22Z" finished-at="2019-10-17T18:59:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportDataSetResult -->
+        <test-method status="PASS" signature="reportTestResult()[pri:0, instance:com.tractionGuest.suiteLocation.AddLocation@6fd02e5]" name="reportTestResult" is-config="true" duration-ms="371" started-at="2019-10-17T18:59:24Z" finished-at="2019-10-17T18:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestResult -->
+      </class> <!-- com.tractionGuest.suiteLocation.AddLocation -->
+    </test> <!-- AddLocationTesting -->
+  </suite> <!-- Location -->
+</testng-results>

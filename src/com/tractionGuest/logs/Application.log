@@ -4362,3 +4362,32 @@ Session ID: bb310fd705d2606ceca624468ff88644
 2019-10-17 18:04:31,964 INFO  [-->] Opening Chrome Browser 
 2019-10-17 18:04:34,037 INFO  [-->] Chrome browser started 
 2019-10-17 18:04:34,546 INFO  [-->] Closing the browser now 
+2019-10-17 18:59:13,648 INFO  [-->] Loading Property files 
+2019-10-17 18:59:13,651 INFO  [-->] Loaded Property files successfully 
+2019-10-17 18:59:13,651 INFO  [-->] Loading XLS Files 
+2019-10-17 18:59:14,757 INFO  [-->] Loaded XLS Files successfully 
+2019-10-17 18:59:14,758 INFO  [-->] Checking Runmode of Location suite 
+2019-10-17 18:59:14,824 INFO  [-->] ================================ Executing addLocation (AddLocation_AyazTestLocation_Chrome)====================================================== 
+2019-10-17 18:59:14,824 INFO  [-->] ================================================================================================================================================== 
+2019-10-17 18:59:14,829 INFO  [-->] Opening Chrome Browser 
+2019-10-17 18:59:18,462 INFO  [-->] Chrome browser started 
+2019-10-17 18:59:19,370 INFO  [-->] Closing the browser now 
+2019-10-17 18:59:20,673 INFO  [-->] ================================ Executing addLocation (AddLocation_HasanTestLocation_Chrome)====================================================== 
+2019-10-17 18:59:20,673 INFO  [-->] ================================================================================================================================================== 
+2019-10-17 18:59:20,673 INFO  [-->] Opening Chrome Browser 
+2019-10-17 18:59:22,704 INFO  [-->] Chrome browser started 
+2019-10-17 18:59:23,175 INFO  [-->] Closing the browser now 
+2019-10-17 19:33:16,769 INFO  [-->] Loading Property files 
+2019-10-17 19:33:16,773 INFO  [-->] Loaded Property files successfully 
+2019-10-17 19:33:16,773 INFO  [-->] Loading XLS Files 
+2019-10-17 19:33:17,824 INFO  [-->] Loaded XLS Files successfully 
+2019-10-17 19:33:17,826 INFO  [-->] Checking Runmode of Location suite 
+2019-10-17 19:33:17,912 INFO  [-->] ================================ Executing addLocation (AddLocation_AyazTestLocation_Chrome)====================================================== 
+2019-10-17 19:33:17,913 INFO  [-->] ================================================================================================================================================== 
+2019-10-17 19:33:17,920 INFO  [-->] Opening Chrome Browser 
+2019-10-17 19:33:22,080 INFO  [-->] Chrome browser started 
+2019-10-17 19:33:22,085 INFO  [-->] Navigating to URL--:https://dfeqa.tractionguest.ca/#/Login 
+2019-10-17 19:33:35,317 INFO  [-->] Waiting for WebElement: loginPage_txtbx_username_xpath 
+2019-10-17 19:33:38,143 INFO  [-->] WebElement is available: loginPage_txtbx_username_xpath 
+2019-10-17 19:33:38,143 INFO  [-->] Entering the value in:-- loginPage_txtbx_username_xpath 
+2019-10-17 19:33:40,268 INFO  [-->] Waiting for WebElement: loginPage_txtbx_password_xpath 

@@ -4362,3 +4362,18 @@ Session ID: bb310fd705d2606ceca624468ff88644
 2019-10-17 18:04:31,964 INFO  [-->] Opening Chrome Browser 
 2019-10-17 18:04:34,037 INFO  [-->] Chrome browser started 
 2019-10-17 18:04:34,546 INFO  [-->] Closing the browser now 
+2019-10-17 18:59:13,648 INFO  [-->] Loading Property files 
+2019-10-17 18:59:13,651 INFO  [-->] Loaded Property files successfully 
+2019-10-17 18:59:13,651 INFO  [-->] Loading XLS Files 
+2019-10-17 18:59:14,757 INFO  [-->] Loaded XLS Files successfully 
+2019-10-17 18:59:14,758 INFO  [-->] Checking Runmode of Location suite 
+2019-10-17 18:59:14,824 INFO  [-->] ================================ Executing addLocation (AddLocation_AyazTestLocation_Chrome)====================================================== 
+2019-10-17 18:59:14,824 INFO  [-->] ================================================================================================================================================== 
+2019-10-17 18:59:14,829 INFO  [-->] Opening Chrome Browser 
+2019-10-17 18:59:18,462 INFO  [-->] Chrome browser started 
+2019-10-17 18:59:19,370 INFO  [-->] Closing the browser now 
+2019-10-17 18:59:20,673 INFO  [-->] ================================ Executing addLocation (AddLocation_HasanTestLocation_Chrome)====================================================== 
+2019-10-17 18:59:20,673 INFO  [-->] ================================================================================================================================================== 
+2019-10-17 18:59:20,673 INFO  [-->] Opening Chrome Browser 
+2019-10-17 18:59:22,704 INFO  [-->] Chrome browser started 
+2019-10-17 18:59:23,175 INFO  [-->] Closing the browser now 
