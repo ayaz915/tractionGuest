@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Location">
+
+ <test name="AddLocationTesting">
+    <classes>
+        <class name="com.tractionGuest.suiteLocation.AddLocation"></class>  
+    </classes>
+</test>
+<!--  <test name="EditLocationTesting">
+    <classes>
+        <class name="com.tractionGuest.suiteLocation.EditLocation"></class>  
+    </classes>
+</test>
+<test name="CreateInviteOnExistingLocationTesting">
+    <classes>
+        <class name="com.tractionGuest.suiteLocation.CreateInviteOnExistingLocation"></class>  
+    </classes>
+</test>
+<test name="CreateBulkInviteOnExistingLocationTesting">
+    <classes>
+        <class name="com.tractionGuest.suiteLocation.CreateBulkInviteOnExistingLoc"></class>  
+    </classes>
+</test>
+<test name="DeleteLocationTesting">
+    <classes>
+        <class name="com.tractionGuest.suiteLocation.DeleteLocation"></class>  
+    </classes>
+</test> -->
+
+</suite>
+

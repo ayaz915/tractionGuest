@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tractionGuest">
+  
+    <parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+  
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+  </listeners>  
+    
+  <suite-files>
+      
+      <suite-file path="./suiteLocation.xml"/>
+   
+   
+  </suite-files>
+</suite>

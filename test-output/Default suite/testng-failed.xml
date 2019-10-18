@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.tractionGuest.suiteLocation.CreateBulkInviteOnExistingLoc">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="createBulkInviteOnExistingLoc" invocation-numbers="0"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.tractionGuest.suiteLocation.CreateBulkInviteOnExistingLoc -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
